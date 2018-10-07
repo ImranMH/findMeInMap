@@ -96,10 +96,10 @@ function initMap(){
  
       /* self marker */
       map = new google.maps.Map(document.querySelector('.map'),options)
-      var contentString = `<div> 
-                            <h> Your current Location </h>                            
-                            Latitde : ${center.lat}
-                            Longitude : ${center.lng}
+      var contentString = `<div class="infoWindw you"> 
+                            <h2> Your current Location </h2>                            
+                            <h2> Latitde : ${center.lat} </h2> 
+                            <h2> Longitude : ${center.lng} </h2> 
                           </div> `
         var infowindow = new google.maps.InfoWindow({
           content: contentString
