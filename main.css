@@ -8,3 +8,36 @@
   height: 400px;
   border: 1px solid #555;
 }
+.infoWindw{
+  background: #ffc11f;;
+  color:#fff;
+  padding: 10px;
+}
+.infoWindw h2{
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.infoWindw h3{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.input_area{
+  padding-top: 10px;
+  background: #f2eccf;
+}
+.input_area h2{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form-inline{
+  margin-right: 5px;
+}
+.form-horizantal{
+  display: flex;
+  padding: 5px 10px 20px;
+}
+.title{
+  text-transform: capitalize;
+  text-align: center;
+}
