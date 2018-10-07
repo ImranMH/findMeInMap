@@ -23,7 +23,7 @@
 }
 .input_area{
   padding-top: 10px;
-  background: #f2eccf;
+  background: rgba(0,123,255,.5);
 }
 .input_area h2{
   margin: 0;
@@ -40,4 +40,10 @@
 .title{
   text-transform: capitalize;
   text-align: center;
+  background: beige;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.btn{
+  margin-top: 23px;
 }

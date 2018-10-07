@@ -72,6 +72,7 @@ function initMap(){
       };
       var options = {
         zoom: 5,
+        minZoom: 1,
         center: center,
         mapTypeControl: true,
         scaleControl: true,
