@@ -32,9 +32,15 @@
 }
 .form-inline{
   margin-right: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-inline label{
+  margin-right: 5px;
 }
 .form-horizantal{
   display: flex;
+  flex-wrap: wrap;
   padding: 5px 10px 20px;
 }
 .title{
@@ -45,8 +51,17 @@
   padding: 10px;
 }
 .btn{
-  margin-top: 23px;
+  /* margin-top: 23px; */
 }
 .you{
   background: #aadaff;
+}
+
+@media (max-width:1230px){
+  .form-horizantal{
+    /* background: #000; */
+  }
+  .form-inline {
+    min-width: 200px;
+  }
 }

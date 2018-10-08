@@ -65,7 +65,7 @@ function initMap(){
   //   lng: 70
   // };
 
-    navigator.geolocation.getCurrentPosition(data=>{
+    navigator.geolocation.watchPosition(data=>{
       var center = {
         lat: data.coords.latitude,
         lng: data.coords.longitude
@@ -87,8 +87,8 @@ function initMap(){
         },
         fullscreenControl: true,
         mapTypeControlOptions: {
-          // style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-          style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+           style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+          // style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
           // position: google.maps.ControlPosition.TOP_CENTER,
           mapTypeIds: ['roadmap', 'terrain','satellite']
         }
