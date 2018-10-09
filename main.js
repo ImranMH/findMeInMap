@@ -113,7 +113,7 @@ function initMap(){
   
           // Setup the click event listeners: simply set the map to Chicago.
           controlUI.addEventListener('click', function() {
-            navigator.geolocation.watchPosition(data=>{
+            navigator.geolocation.getCurrentPosition(data=>{
               var center = {
                 lat: data.coords.latitude,
                 lng: data.coords.longitude
