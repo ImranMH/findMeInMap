@@ -118,10 +118,8 @@ function initMap(){
                 lat: data.coords.latitude,
                 lng: data.coords.longitude
               };
-              setTimeout(() => {
-                map.setCenter(center);
-                map.setZoom(15);
-              }, 1000);
+              map.setCenter(center);
+              map.setZoom(15);
             })             
           });
   
